@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entendendo JSX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Entendendo JSX</h1>
+    <ul>
+        <li>O <span>JSX</span> ou sintaxe JSX é como HTML, porém dentro do código JavaScript</li>
+        <li>É a principal maneira de escrever HTML no React</li>
+        <li>Podemos <span>interpolar variáveis</span></li>
+        <li>É possível também <span>execultar funções</span> em JSX</li>
+        <li>Inserir <span>valores em atributos de tags</span> também é válido em JSX</li>
+    </ul>
+
+    <br>
+
+    <hr>
+
+    <br>
+
+    <h2>Exemplo da sintaxe JSX</h2>
+    <img src="img/exemplo-jsx.png" alt="" width="300">
+    <p>Aqui conseguimos misturar <span>HTML</span> com <span>JavaScript</span></p>
+
+    <br>
+
+    <hr>
+
+    <br>
+
+    <h2>Outros exemplos:</h2>
+    <img src="img/exemplo2-jsx.png" alt="" width="300">
+    <img src="img/exemplo3-jsx.png" alt="" width="300">
+    <p><strong>Perceba:</strong></p>
+    <ul>
+        <li>Quando temos apenas um elemento a ser renderizado do componente podemos deixar ele como na figura 1</li>
+        <li>Caso tenha <span>mais de um elemento</span> a ser renderizado de um mesmo componente, <span>precisa-se ser usado os "()"(Parênteses)</span> depois do "return" da função</li>
+        <li><span>Ainda caso tenha mais de um elemento s ser renderizado de um mesmo componente</span>, devemos colocaresses dois elementos dentro de um outro elemento, como uma "div", pois no React cada componente pode renderizar apenas um elemento por vez</li>
+        <li><span>Ainda caso tenha mais de um elemento s ser renderizado de um mesmo componente</span>, não é legal usar tags apenas para suprir essa regra do React, então pensando nisso podemos usar os <span>"fragments"</span> que são os simbolos de abrir e fechar um elemento HTML: <span><code>&lt;&gt; &lt;/&gt;</code></span></li>
+    </ul>
+</body>
+</html>

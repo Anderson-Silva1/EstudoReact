@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando um projeto React</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html">Voltar</a>
+    <h1>Criando um projeto React</h1>
+    <h2>CRA (Create React App)</h2>
+    <p>É uma ferramente que nos ajuda a criar um projeto react, essa ferramente foi criada também pela facebook</p>
+    <hr>
+    <p>Este link nos manda direto para o passo a passo: <a href="https://create-react-app.dev/docs/getting-started">Clique aqui</a></p>
+    <hr>
+    <h2>Passo 1</h2>
+    <h3>Passo 1.1</h3>
+    <p>Precisamos colocar esse comando no prompt de comandos que está sendo usado: <code>npx create-react-app <span style="color: red;">my-app</span></code></p>
+    <img src="img/1-comando-criacao-app-react.png" alt="">
+    <p>Esse nome vermelho "<span style="color: red;">my-app</span>" é na verdade o nome do 
+    aplicativo REACT, ou seja, pode ser qualquer outro nome</p>
+
+    <br>
+
+    <h3>Passo 1.2</h3>
+    <p>Precisamos entrar na nova pasta que será criada, que terá o nome do App React, no nosso caso "my-app"</p>
+    <p>E para entrar nela usamos o comando: <code>cd my-app</code></p>
+    <img src="img/2-comando-para-entrar-em-uma-pasta.png" alt="">
+
+    <br>
+
+    <h3>Passo 1.3</h3>
+    <p>Depois de entrar no nosso projeto já criado, basta roda-lo com o comando: <code>npm start</code></p>
+    <img src="img/3-comando-para-rodar-o-app-react.png" alt="">
+
+    <hr>
+
+    <h2>Projeto criado</h2>
+    <img src="img/4-projeto-criado.png" alt="">
+
+    <hr>
+
+    <h2>Arquivos que o Create React criou pra gente</h2>
+
+    <br>
+
+    <h3>Temos a node modules com 870 pastas, que comporta todos os arquivos necessários para o funcionamento do nosso projeto</h3>
+    <img src="img/5-node-modules.png" alt="" height="300px">
+
+    <br>
+
+    <h3>Temos a pasta Public que comporta os seguintes arquivos:</h3>
+    <img src="img/6-public.png" alt="">
+    <ul>
+        <li><strong>Favicon.ico</strong> &rArr; É a pequena imagem que aparece na aba do navegador ao lado do título da página e é exibida nos marcadores (favoritos) quando alguém salva o site. O termo "favicon" é uma abreviação de "favorite icon". Ele ajuda os usuários a identificar rapidamente o site entre várias abas abertas no navegador e também facilita o reconhecimento do site quando é salvo nos favoritos.</li>
+        <li><strong>index.html</strong> &rArr; É o ponto de entrada principal de uma aplicação web. É um arquivo HTML que geralmente está localizado na raiz do diretório do projeto. Quando alguém visita um site, o navegador procura pelo arquivo index.html automaticamente, a menos que seja especificado de outra forma na configuração do servidor.</li>
+        <li><strong>logo192.png</strong> &rArr; são imagens de amostração do React</li>
+        <li><strong>logo192.png</strong> &rArr; são imagens de amostração do React</li>
+        <li><strong>manifest.json</strong> &rArr; É um arquivo de configuração usado principalmente em aplicações web progressivas (Progressive Web Apps, ou PWAs). Esse arquivo contém metadados sobre o aplicativo, como o nome, a descrição, os ícones, as cores e outros parâmetros que ajudam na integração do aplicativo com o dispositivo do usuário e melhoram a experiência de uso</li>
+        <li><strong>robots.txt</strong> &rArr; É um arquivo de texto simples usado para fornecer instruções aos motores de busca sobre quais partes do site devem ser rastreadas ou ignoradas. Ele é colocado na raiz do diretório do site para que os motores de busca possam facilmente encontrá-lo.</li>
+    </ul>
+    <br>
+    <h2>Pasta SRC</h2>
+    <img src="img/7-src.png" alt="">
+    <ul>
+        <li><strong>App.css</strong> &rArr; É geralmente usado para armazenar estilos globais que se aplicam a toda a aplicação. Quando você inicia um novo projeto React usando ferramentas como Create React App, um arquivo chamado App.css pode ser fornecido como parte da estrutura inicial do projeto.</li>
+        <li><strong>App.js</strong> &rArr; É um dos componentes principais da aplicação. Ele geralmente atua como o componente raiz que engloba toda a estrutura da aplicação e pode conter outros componentes e lógica necessária para a renderização da interface do usuário.</li>
+        <li><strong>App.test.js</strong> &rArr; É um dos componentes principais da aplicação. Ele geralmente atua como o componente raiz que engloba toda a estrutura da aplicação e pode conter outros componentes e lógica necessária para a renderização da interface do usuário.</li>
+        <li><strong>index.css</strong> &rArr; É geralmente utilizado para definir estilos globais que serão aplicados em toda a aplicação. Esse arquivo de estilos é normalmente importado no arquivo index.js ou index.tsx (dependendo se você está utilizando JavaScript ou TypeScript), que é o ponto de entrada da aplicação React.</li>
+        <li><strong>index.js</strong> &rArr; O arquivo index.js (ou index.tsx se você estiver usando TypeScript) é o ponto de entrada principal da aplicação. Esse arquivo é responsável por inicializar a aplicação React e renderizá-la no DOM (Document Object Model) da página HTML.</li>
+        <li><strong>logo.svg</strong> &rArr; É a logo de demostração padrão dop React</li>
+        <li><strong>reportWebVitals.js</strong> &rArr; O arquivo reportWebVitals.js é um utilitário opcional que facilita a medição e o monitoramento do desempenho da aplicação. Ele é usado para coletar métricas vitais da web, como o tempo de carregamento da página, a latência de interações do usuário e outras métricas de performance importantes.</li>
+        <li><strong>setupTests.js</strong> &rArr; O arquivo setupTests.js é utilizado para configurar o ambiente de teste. Ele é executado automaticamente antes de qualquer teste, permitindo que você configure globalmente certas opções ou inicialize bibliotecas de teste.</li>
+    </ul>
+    
+    <br>
+    
+    <h2>Temos o arquivo .gitgnore</h2>
+    <img src="img/8-.gitgnore.png" alt="" width="300px">
+
+    <br>
+
+    <h2>Temos o arquivo package-lock.json e package.json</h2>
+    <img src="img/9-pakage.png" alt="">
+
+    <br>
+    <hr>
+
+    <h1>De fato não precisamos de todos os Arquivos</h1>
+    <h2>Lista do que será deletado, que não é escencial:</h2>
+    <ul>
+        <li>logo192.png</li>
+        <li>logo512.png</li>
+        <li>manifest.json</li>
+        <li>robots.txt</li>
+
+        <li>App.css</li>
+        <li>App.teste.js</li>
+        <li>index.css</li>
+        <li>logo.svg</li>
+        <li>reportWebVitals.js</li>
+        <li>setupTests.js</li>
+    </ul>
+    <br>
+
+    <h2>No final, ficará assim:</h2>
+    <img src="img/9-projeto-suficiente.png" alt="">
+
+    <br>
+
+    <hr>
+
+    <br>
+
+    <h1>Antes de ir para o projeto precisamos ajeitar algumas coisas mais:</h1>
+    <ol>
+        <li>
+            <h2>INDEX.HTML</h2>
+            <p>Dentro desse arquivo terá essa linha de código: <code>&lt;link rel="manifest" href="%PUBLIC_URL%/manifest.json" /&gt;</code></p>
+            <img src="img/10-index.png" alt="" width="400px">
+            <p><strong>Precisamos apaga-la</strong></p>
+        </li>
+        <li>
+            <h2>APP.JS</h2>
+            <p>Apageremos todo o conteúdo desse arquivo</p>
+            <img src="img/11-app-js.png" alt="" width="300px">
+        </li>
+        <li>
+            <h2>INDEX.JS</h2>
+            <p>Vamos apagar algumas linhas de código para deixar apenas o necessário</p>
+            <img src="./img/12-index-js.png" alt="" width="300px">
+            <p>Ficará assim:</p>
+            <img src="img/13-index-js.png" alt="" width="300px">
+        </li>
+    </ol>
+    <br>
+    <hr>
+    <br>
+    <h1>Pronto</h1>
+
+    <p>Feito tudo isso, nosso projeto está pronto para começar atrabalhar nele</p>
+</body>
+</html>
