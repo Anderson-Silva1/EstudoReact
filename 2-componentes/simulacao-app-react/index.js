@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './App'; // Componente "App" sendo importado
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // Aqui é o arquivo responsável por mandar as informações que estão dentro do componente "App" para dentro do "HTML" pela "div" com "id=root"
   <React.StrictMode>
     <App />
   </React.StrictMode>

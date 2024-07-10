@@ -1,7 +1,9 @@
-import Frase from "./Frase"
+import Frase from "./Frase" // Importando o componente Frase
 
+// Criando o componente "HelloWorld"  
 function HelloWorld() {
     return (
+
         <>
             <h1>Hello World</h1>
             <Frase />
@@ -9,8 +11,8 @@ function HelloWorld() {
             <Frase />
             <Frase />
         </>
-        
+        // Usando o componente importado "Frase"
     )
 }
 
-export default HelloWorld
+export default HelloWorld // Exportando o componente "HelloWorld"
