@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: red;
+  /* Usando dessa forma nós estaremos estilizando todos os elementos "Paragrafos" e isso inclui o nosso coponente "Frase" que é um "paragrafo" */
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Essa é a primeira forma de usar estilos para os componentes Globais, que é usando o Arquivo index.css e importando ele no nosso arquivo index.js ou index.jsx */
+
+/* Geralmente usamos essa página para reconfigurar as configurações como bordas, cores, espaçamento... que os navegadores colocam (em alguns casos em indicidual, o que significa que cada navegador pode ter uma configuração padrão diferente), tornando assim quase que impossível padronizar um sistema...*/
+
+/* Se eu quero uma aplicação padrão onde uso o CSS em um único arquivo, esse cara é o ídeal... MAs levando em consideração que um projeto real pode ter milhares de linhas de código CSS, se torna quase que bem iniviável o uso dessa forma de CSS, pois dificulta até mesmo na manutenção dc próprio código */
+
+/* Mas podemos usar o CSS também a nível de componente chamada também de "CSS modules", ou usar Lib's como o "styled-components", vamos aprender essas outras duas formas de usar CSS no React */
